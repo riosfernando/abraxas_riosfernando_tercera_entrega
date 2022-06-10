@@ -1,3 +1,5 @@
+@import "scss/base/extends";
+
 * {
     background-color: black;
     color: aliceblue;
@@ -14,11 +16,8 @@
 
 h1 {
     background-image: url(multimedia/humo_rojo_fondo_negro.jpg);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    @extend %flex-row-spacearround;
     align-items: center;
-    justify-content:space-around
 }
 
 #h1_logo {
