@@ -1,4 +1,7 @@
 @import "scss/base/extends";
+@import "scss/componentes/header";
+@import "scss/componentes/navbar";
+@import "scss/componentes/novedades";
 
 * {
     background-color: black;
@@ -39,10 +42,7 @@ nav {
     border: solid 2px;
     border-color: firebrick;
     border-radius: 2px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    @extend %flex-row-spacearround;
     color: aliceblue;
     list-style: none;
 }
@@ -66,10 +66,7 @@ nav {
 
 #novedades, #fotos, #videos, #fechas, #little_magic {
     margin-top: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
+    @extend %flex-row-spacearround;
     background-color: black;
     padding-top: 60px;
 }
@@ -111,10 +108,7 @@ strong {
 
 /* INICIO FOTOS */
 .grid_container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    @extend %flex-row-spacearround;
 }
 
 .item_fotos {
@@ -157,10 +151,7 @@ strong {
     position: relative;
     overflow: hidden;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
+    @extend %flex-row-spacearround;
     margin-top: 10px;
     margin-bottom: 10px;
 }
