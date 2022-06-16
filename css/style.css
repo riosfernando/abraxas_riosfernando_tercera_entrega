@@ -1,16 +1,9 @@
-h1 {
+h1, #navbar, #novedades, #fotos, #videos, #fechas, #little_magic, .grid_container, .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around; }
 
-* {
-  background-color: black;
-  color: aliceblue;
-  font-family: 'Comfortaa', cursive;
-  line-height: 150%; }
-
-/* INICIO HEADER */
 .header_image {
   width: 60%;
   margin: 2px; }
@@ -22,8 +15,12 @@ h1 {
 #h1_logo {
   width: 20%; }
 
-/* FIN HEADER */
-/* INICIO NAVBAR */
+h1, #navbar, #novedades, #fotos, #videos, #fechas, #little_magic, .grid_container, .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
 nav {
   position: sticky;
   top: 0px;
@@ -35,10 +32,6 @@ nav {
   border: solid 2px;
   border-color: firebrick;
   border-radius: 2px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
   color: aliceblue;
   list-style: none; }
 
@@ -50,17 +43,17 @@ nav {
 #animacion_navbar {
   padding: 3px; }
 
-/* FIN NAVBAR */
-/* INICIO NOVEDADES */
+h1, #navbar, #novedades, #fotos, #videos, #fechas, #little_magic, .grid_container, .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
 #accordion_button_desplegado {
   background-color: black; }
 
 #novedades, #fotos, #videos, #fechas, #little_magic {
   margin-top: 15px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
   background-color: black;
   padding-top: 60px; }
 
@@ -92,58 +85,23 @@ img {
 strong {
   text-decoration: underline; }
 
-/* FIN NOVEDADES */
-/* INICIO FOTOS */
-.grid_container {
+h1, #navbar, #novedades, #fotos, #videos, #fechas, #little_magic, .grid_container, .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around; }
 
-.item_fotos {
-  width: 100%; }
-
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around; }
-
-.item_fotos:hover {
-  transform: scale(130%, 130%); }
-
-/* FIN FOTOS */
-/* INICIO FECHAS */
 .fechas {
   display: flex;
   flex-direction: column;
   align-items: center; }
 
-/* FIN FECHAS */
-/* PSEUDO CLASES */
-.videos-item:hover, .fechas-item:hover, .little-magic:hover, .image_social_media:hover {
-  transform: scale(120%);
-  z-index: 4; }
-
-/* PSEUDO CLASES */
-/* RESPONSIVE IFRAME */
-.container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
+h1, #navbar, #novedades, #fotos, #videos, #fechas, #little_magic, .grid_container, .container {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
-  margin-top: 10px;
-  margin-bottom: 10px; }
+  flex-wrap: wrap;
+  justify-content: space-around; }
 
-iframe {
-  margin: 10px 10px 10px 10px; }
-
-/* RESPONSIVE IFRAME */
-/* INICIO FOOTER */
 footer {
   background-color: white; }
 
@@ -168,4 +126,50 @@ footer {
   width: 20%;
   background-color: white; }
 
-/* FIN FOOTER */
+h1, #navbar, #novedades, #fotos, #videos, #fechas, #little_magic, .grid_container, .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.item_fotos {
+  width: 100%; }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around; }
+
+.item_fotos:hover {
+  transform: scale(130%, 130%); }
+
+h1, #navbar, #novedades, #fotos, #videos, #fechas, #little_magic, .grid_container, .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+iframe {
+  margin: 10px 10px 10px 10px; }
+
+* {
+  background-color: black;
+  color: aliceblue;
+  font-family: 'Comfortaa', cursive;
+  line-height: 150%; }
+
+/* PSEUDO CLASES */
+.videos-item:hover, .fechas-item:hover, .little-magic:hover, .image_social_media:hover {
+  transform: scale(120%);
+  z-index: 4; }
+
+/* PSEUDO CLASES */

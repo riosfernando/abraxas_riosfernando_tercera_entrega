@@ -2,3 +2,23 @@
 @import "scss/base/listas";
 @import "scss/base/mixins";
 @import "scss/base/variables";
+
+.grid_container {
+    @extend %flex-row-spacearround;
+}
+
+.item_fotos {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item_fotos:hover {
+    transform: scale(130%, 130%);
+}
