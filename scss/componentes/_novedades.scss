@@ -4,19 +4,19 @@
 @import "scss/base/variables";
 
 #accordion_button_desplegado {
-    background-color: black;
+    background-color: nth($colores, 1);
 }
 
 #novedades, #fotos, #videos, #fechas, #little_magic {
     margin-top: 15px;
     @extend %flex-row-spacearround;
-    background-color: black;
+    background-color: nth($colores, 1);
     padding-top: 60px;
 }
 
 .accordion-button {
-    background-color: black;
-    color: firebrick;
+    background-color: nth($colores, 1);
+    color: nth($colores, 3);
     font-weight: bold;
     font-size: 50%;
 }
@@ -29,7 +29,7 @@
 .p_propio {
     margin-left: 10px;
     font-size: 150%;
-    color: firebrick;
+    color: nth($colores, 3);
 }
 
 img {

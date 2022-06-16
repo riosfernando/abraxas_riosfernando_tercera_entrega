@@ -13,17 +13,17 @@ nav {
     padding-top: 10px;
     padding-bottom: 10px;
     border: solid 2px;
-    border-color: firebrick;
+    border-color: nth($colores, 3);
     border-radius: 2px;
     @extend %flex-row-spacearround;
-    color: aliceblue;
+    color: nth($colores, 2);
     list-style: none;
 }
 
 #animacion_navbar:hover {
     transform: scale(1.2);
-    color: aliceblue;
-    background-color: firebrick;
+    color: nth($colores, 2);
+    background-color: nth($colores, 3);
 }
 
 #animacion_navbar {
