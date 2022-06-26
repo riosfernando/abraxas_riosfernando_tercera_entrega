@@ -5,6 +5,8 @@
 
 #accordion_button_desplegado {
     background-color: nth($colores, 1);
+    border-color: nth($colores, 3);
+    border: solid 2px;
 }
 
 #novedades, #fotos, #videos, #fechas, #little_magic {
