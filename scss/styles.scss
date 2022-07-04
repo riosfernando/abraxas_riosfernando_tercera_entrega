@@ -22,6 +22,10 @@
     margin-bottom: 40px;
 }
 
+.disclaimer{
+    display: none !important;
+}
+
 /* PSEUDO CLASES */
 .videos-item:hover, .fechas-item:hover, .little-magic:hover, .image_social_media:hover {
     transform: scale(120%);

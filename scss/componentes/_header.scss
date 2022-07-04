@@ -9,7 +9,7 @@
 }
 
 h1 {
-    background-color: nth($colores, 2);
+    background-color: nth($colores, 4);
     @extend %flex-row-spacearround;
     align-items: center;
 }
