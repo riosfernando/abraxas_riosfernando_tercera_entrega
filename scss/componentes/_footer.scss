@@ -19,15 +19,36 @@ footer {
 
 #social-media-item {
     background-color: nth($colores, 4);
+    @extend %flex-row-center-center;
 }
 
 #social-media-parrafo {
     background-color: nth($colores, 4);
     color: nth($colores, 1);
     font-weight: bold;
+    @extend %flex-row-center-center;
+    margin-top: 25px;
+    font-size: 150%;
+    padding: 10px 10px 10px 10px;
 }
 
 .image_social_media {
-    width: 20%;
+    width: 3em;
     background-color: nth($colores, 4);
+}
+
+a {
+    background-color: nth($colores, 4);
+}
+
+.container {
+    @extend %flex-row-spacearround;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }
